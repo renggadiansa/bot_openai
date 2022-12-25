@@ -1,9 +1,9 @@
 import telebot
 from telebot import types
 import openai
-openai.api_key = "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"
+openai.api_key = "OPEN AI API key"
 
-api = '5890476037:AAF4kN1ntNOK5s1YQUXI1RCHRRuhTHgaVks'
+api = 'bot API Key'
 bot = telebot.TeleBot(api)
 bot.set_webhook()
 
